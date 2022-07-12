@@ -24,7 +24,7 @@ if (email.includes('@')) {
         email = 'not valid email' + ' ' + email + ' ' + '(symbol @ find in last place';
         // console.log('not valid email' + ' ' + email + ' ' + '(symbol @ find in last place)');
     } else {
-        email = email;
+        email;
         // console.log('Email:' + ' ' + email);
     }
 }
